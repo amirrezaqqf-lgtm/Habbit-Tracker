@@ -7,6 +7,10 @@
 
 html, body {
     height: 100%; 
+
+    background-color: rgb(238, 238, 244);
+
+
 }
 
 body {
@@ -16,12 +20,18 @@ body {
 
 
 aside {
-    border: solid black;
+    /* border: solid black; */
+
+    border: none;
+    border-right: 2px solid rgb(75, 75, 92);
     border-radius: 2px;
     width: 20%;
-    height: 100vh; 
+    height: 1200px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(238, 238, 244);
+
 }
 
 
@@ -31,18 +41,34 @@ ul {
 }
 
 .aside_icons {
-    margin: 75px;
-    margin-top: 9%;
+    margin: 20px;
+    /* border: solid black; */
+    border-radius: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    
+
+    /* padding: 20px; */
+
+}
+
+.aside_icons:hover{
+    background-color: rgb(62, 167, 202);
+    color: brown;
 }
 
 main {
     width: 80%; 
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: rgb(238, 238, 244);
+
 }
 
 header {
-    border: solid black;
+    /* border: solid black; */
     border-radius: 2px;
     width: 100%; 
     margin-top: 1%;
@@ -72,20 +98,61 @@ h1 {
 }
 
 .notif_prof {
-    padding: 5px 10px; 
+    padding: 15px 10px; 
 }
 
 /*  لوگو و نام */
 #logo_name {
-    border: solid black;
+    /* border: solid rgb(0, 0, 0); */
     border-radius: 2px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-right: 16px; 
+    margin-right: 70px; 
     margin-left: 20px;
     align-items: center; 
     padding: 0 10px;
+    
+
+    font-family: Verdana, sans-serif;
+
 }
+
+#logo_picture {
+
+    /* border: solid black; */
+    border-radius: 2px;
+
+    height: 80px;
+    width: 80px;    
+
+}
+
+.logo_img {
+ height: 95px;
+ width: 100px;
+}
+
+
+
+a{
+        border: solid 0.5px black;
+    border-radius: 15px;
+    padding: 15px;
+
+        text-decoration: none;
+    color: black;
+    
+    display: block;
+
+    font-size: 20px;
+
+    text-align: center;
+}
+
+/* #notif{
+
+} */
+
 
