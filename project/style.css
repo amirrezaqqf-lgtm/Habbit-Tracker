@@ -8,7 +8,11 @@
 html, body {
     height: 100%; 
 
-    background-color: rgb(238, 238, 244);
+    background: linear-gradient(
+  180deg,
+  #F8F8F7 0%,
+  #F5F5F4 100%
+);
 
 
 }
@@ -30,7 +34,11 @@ aside {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 1%;
     margin-bottom: 1%;
-    background-color: rgb(238, 238, 244);
+    background: linear-gradient(
+  180deg,
+  #F8F8F7 0%,
+  #F5F5F4 100%
+);
 
 }
 
@@ -54,8 +62,14 @@ ul {
 }
 
 .aside_icons:hover{
-    background-color: rgb(62, 167, 202);
-    color: brown;
+    background-color: rgb(103, 167, 190);
+}
+
+.aside_icons.acttive{
+
+        background-color: rgb(231, 252, 6);
+    color: white;
+
 }
 
 main {
@@ -63,7 +77,11 @@ main {
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    background-color: rgb(238, 238, 244);
+    background: linear-gradient(
+  180deg,
+  #F8F8F7 0%,
+  #F5F5F4 100%
+);
 
 }
 
@@ -137,7 +155,7 @@ h1 {
 
 
 a{
-        border: solid 0.5px black;
+        /* border: solid 0.5px black; */
     border-radius: 15px;
     padding: 15px;
 
@@ -155,4 +173,40 @@ a{
 
 } */
 
+#info_cards{
+    /* border: solid 2px rgb(0, 0, 0); */
+    height: 160px;
+    width: 100%;
 
+}
+
+.info__cards{
+    border: solid 0.5px rgb(0, 0, 0);
+    height: 130px;
+    width: 200px;
+    margin: 4%;
+    display: inline-block;
+
+    margin-top: 3%;
+    border-radius: 10px;
+
+}
+
+#card_completed{
+    border: solid 1px #b1b1f7;
+
+background: #F4F7FC;
+}
+#card_pomodoros{
+    border: solid 1px #b1b1f7;
+
+background: #F5F5FD;
+}
+#card_streak{
+    border: solid 1px #f9d6ab;
+background: #F9F4EE;
+}
+#card_foocustime{
+    border: solid 1px #b1f7d0;
+background: #F4F6FB;
+}
