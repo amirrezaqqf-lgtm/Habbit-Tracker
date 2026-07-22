@@ -30,7 +30,7 @@ aside {
     border-right: 2px solid rgb(75, 75, 92);
     border-radius: 2px;
     width: 20%;
-    height: 1200px; 
+    height: 100vh; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -62,13 +62,14 @@ ul {
 }
 
 .aside_icons:hover{
-    background-color: rgb(103, 167, 190);
+    background-color: rgb(185, 214, 224);
 }
 
-.aside_icons.acttive{
+.aside_icons.active{
 
-        background-color: rgb(231, 252, 6);
-    color: white;
+    background-color: rgb(82, 174, 207);
+
+    color: rgb(238, 27, 27);
 
 }
 
@@ -209,4 +210,16 @@ background: #F9F4EE;
 #card_foocustime{
     border: solid 1px #b1f7d0;
 background: #F4F6FB;
+}
+
+.first_card_items{
+        border: solid 2px #549e78;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        margin-left: 40%;
+
+        height: 30px;
+        width: 100px;
+
 }
